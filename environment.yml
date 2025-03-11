@@ -1,0 +1,16 @@
+name: pipeline_analysis
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - ipykernel
+  - pip
+  - pip:
+      - matplotlib
+      - seaborn
+      - pandas
+      - numpy
+      - scipy
