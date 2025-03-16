@@ -1,5 +1,7 @@
 
 from scipy.stats import chi2_contingency, spearmanr
+from collections import Counter
+import string
 import pandas as pd
 
 def compute_year_correlation(df_counts : pd.Series, start_year : int, end_year : int) -> tuple:
@@ -45,3 +47,28 @@ def compute_year_correlation(df_counts : pd.Series, start_year : int, end_year :
     return filled_counts, rho, p
 
 
+
+
+def word_frequencies(text):
+    
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    
+   
+    words = text.split()  
+    return Counter(words) 
+
+
+
+
+def sum_word_frequencies(series):
+   
+    total_word_freq = Counter()
+    
+    
+    for text in series:
+        if pd.isna(text):
+            continue
+        else:
+            total_word_freq.update(word_frequencies(text)) 
+    
+    return total_word_freq
