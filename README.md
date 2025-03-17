@@ -11,4 +11,4 @@ To run this notebook locally you should:
 3. build the environment with conda using `conda env create -f environment.yml`
 4. activate the environment with `conda activate pipeline_analysis`
 5. navigate to the jupyter notebook `notebook.ipynb` and select `pipeline_analysis` as your kernel
-    - note: this may require you to restart your idea or kernel manager
+    - note: this may require you to restart your IDE or kernel manager
