@@ -12,3 +12,9 @@ To run this notebook locally you should:
 4. activate the environment with `conda activate pipeline_analysis`
 5. navigate to the jupyter notebook `notebook.ipynb` and select `pipeline_analysis` as your kernel
     - note: this may require you to restart your IDE or kernel manager
+
+### Running without Installing
+
+Alternatively, you can load the interactive notebook in your browser at my binder by clicking the image below:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2Fjwatchorn%2Fpipeline_analysis/main?urlpath=%2Fdoc%2Ftree%2Fnotebook.ipynb)
