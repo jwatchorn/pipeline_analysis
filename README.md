@@ -15,6 +15,6 @@ To run this notebook locally you should:
 
 ### Running without Installing
 
-Alternatively, you can load the interactive notebook in your browser at my binder by clicking the image below:
+Alternatively, you can load the interactive notebook in your browser by clicking the launch button below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2Fjwatchorn%2Fpipeline_analysis/main?urlpath=%2Fdoc%2Ftree%2Fnotebook.ipynb)
